@@ -1,0 +1,182 @@
+:root {
+    --adminclr:#c38b39;
+    --black:#000;
+}
+h1,h2,h3,h4,h5,h6{
+    color:var(--black);
+}
+.w-max-250{
+    max-width: 250px;
+}
+.h-max-71{
+    max-height: 71px;
+}
+.table{
+    color:#000;
+}
+.user-form .profile-img{
+    padding: 2rem;
+    text-align: center;
+}
+.user-form .profile-img .img-profile{
+    width: 160px;
+}
+
+.badge {
+    color:#ffff;
+}
+
+.form-left-img{
+    padding: 2rem;
+    text-align: center;
+}
+.form-left-img img{
+    width: 160px;
+    height: 160px;
+}
+
+.card-header{
+    background: transparent !important;
+    /* border-bottom: 0 !important; */
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.card{
+    border-radius:12px !important;
+}
+.card{
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    border-radius: 20px !important;
+}
+
+.btn.btn-primary:hover,.btn.btn-primary:hover i {
+    border: 1px solid var(--adminclr);
+    background:transparent;
+    color:var(--adminclr) !important;
+}
+.btn.btn-primary i{
+    color: var(--adminclr) !important;
+}
+.btn{
+    border-radius: 8px;
+    padding: 0.5em 1rem;
+}
+.btn.btn-primary{
+    background:  var(--adminclr);
+    box-shadow: 0px 0px 0px 1px var(--adminclr);
+    border: 1px solid var(--adminclr);
+    padding: 0.5em 1rem;
+    border-radius: 8px;
+    /* color: var(--adminclr); */
+}
+.bg-gradient-primary{
+    /* background: var(--adminclr); */
+    background: #f8f9fc;
+}
+.sidebar-dark .sidebar-brand{
+    color:var(--adminclr);
+}
+.sidebar-dark .nav-item .nav-link, .sidebar-dark .nav-item .nav-link.active i{
+    color: var(--adminclr);
+}
+.sidebar-dark .nav-item .nav-link,.sidebar-dark .nav-item .nav-link i{
+    color: #000;
+}
+.sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover,.sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover i{
+    color: var(--adminclr);
+}
+.dashboard-view i{
+    color: var(--adminclr) !important;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item.active , .sidebar .nav-item .nav-link.active{
+    color: #c38b39;
+    font-weight: 700;
+}
+.sidebar .nav-item.parent .nav-link.active ,.sidebar .nav-item.parent .nav-link.active i{
+    background: #c38b39;
+    color: #ffff;
+}
+.sidebar .nav-item .collapse-item {
+    width: 100%;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item:hover, .sidebar .nav-item .collapsing .collapse-inner .collapse-item:hover{
+    background-color:transparent;
+    color:var(--adminclr);
+}
+.sidebar .nav-item .collapse .collapse-inner, .sidebar .nav-item .collapsing .collapse-inner{
+    margin: 0;
+}
+.dt-paging.paging_full_numbers .dt-paging-button:hover{
+    background: var(--adminclr) !important;
+}
+.dt-paging.paging_full_numbers .dt-paging-button{
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 7%)!important;
+    border-radius: 50% !important;
+    border:none !important;
+}
+.dt-paging.paging_full_numbers .dt-paging-button.current{
+    background: var(--adminclr) !important;
+    color: #ffff !important;
+}
+div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover{
+    color: #ffff !important;
+}
+div.dt-container .dt-paging .dt-paging-button{
+    margin-left:7px;
+}
+.form-check-input:checked {
+    background-color: var(--adminclr);
+    border-color: var(--adminclr);
+}
+.form-check-input{
+    position: unset;
+    margin-left: 0;
+}
+
+table.dataTable img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.permissions h4{
+    background: #e3e3e3c7;
+    padding: 1rem;
+}
+
+.bg-primary{
+    background-color: var(--adminclr) !important;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 12px
+}
+.choose-files .bg-primary{
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #fff;
+    background-color: #c38b39;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #c38b39;
+}
+.nav-link{
+    color: #000;
+}
+.toggled .sidebar-brand .sidebar-brand-icon img{
+    width: 104px;
+}
+@media only  screen and (max-width: 768px) {
+  .sidebar-brand-icon img{
+        width: 104px;
+    }
+}
+@media only  screen and (min-width:668px) {
+    .card{
+        padding: 20px;
+    }
+}
